@@ -27,3 +27,12 @@ Each emotion you select blooms into a unique flower or object, turning your feel
 Clone the project:
 ```bash
 git clone https://github.com/highonicee/mind-garden.git
+
+Install dependencies:
+
+npm install
+
+
+Start the development server:
+
+npm run dev
