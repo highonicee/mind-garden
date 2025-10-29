@@ -7,7 +7,7 @@ import { Sparkles } from "lucide-react";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { format } from "date-fns";
-import { PrimaryButton, SecondaryButton } from "../Components/ui/ActionButton.jsx";
+import { PrimaryButton, SecondaryButton } from "../components/ui/ActionButton.jsx";
 import { thoughtsApi } from "@/lib/thoughtsApi";
 
 const emotionMapping = {

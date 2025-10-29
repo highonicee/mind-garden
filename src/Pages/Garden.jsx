@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 import { Sparkles } from "lucide-react";
 import { Link } from "react-router-dom";
 import { createPageUrl } from "@/utils";
-import { PrimaryButton } from "../Components/ui/ActionButton.jsx";
-import GardenScene from "../Components/garden/GardenScene.tsx";
-import ThoughtModal from "../Components/garden/ThoughtModal.jsx";
+import { PrimaryButton } from "../components/ui/ActionButton.jsx";
+import GardenScene from "../components/garden/GardenScene.tsx";
+import ThoughtModal from "../components/garden/ThoughtModal.jsx";
 import { thoughtsApi } from "@/lib/thoughtsApi";
 
 export default function Garden() {
