@@ -5,7 +5,8 @@ import { Sparkles, TrendingUp, Heart, Calendar } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { startOfWeek, endOfWeek, isWithinInterval, format, subWeeks, isValid, parseISO } from "date-fns";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from "recharts";
-import { thoughtsApi } from "@/lib/thoughtsApi";
+import { thoughtsApi } from "@/lib/thoughtsapi";
+
 
 const categoryColors = {
   contentment: "#f9fafb",
