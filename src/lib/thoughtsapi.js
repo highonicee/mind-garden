@@ -15,8 +15,8 @@ export const thoughtsApi = {
         console.error('Error fetching thoughts:', error)
         throw error
       }
-      
-      console.log('Fetched thoughts:', data) // Debug log
+
+      console.log('Fetched thoughts:', data)
       return data || []
     } catch (error) {
       console.error('Failed to fetch thoughts:', error)
@@ -26,8 +26,8 @@ export const thoughtsApi = {
 
   async create(thoughtData) {
     try {
-      console.log('Creating thought:', thoughtData) // Debug log
-      
+      console.log('Creating thought:', thoughtData)
+
       const { data, error } = await supabase
         .from('thoughts')
         .insert([thoughtData])
@@ -38,8 +38,8 @@ export const thoughtsApi = {
         console.error('Error creating thought:', error)
         throw error
       }
-      
-      console.log('Created thought:', data) // Debug log
+
+      console.log('Created thought:', data)
       return data
     } catch (error) {
       console.error('Failed to create thought:', error)

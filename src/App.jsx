@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import Layout from "./Components/Layout.jsx";
+import Layout from "./components/Layout.jsx";
 import Garden from "./Pages/Garden.jsx";
 import AddThoughts from "./Pages/AddThoughts.jsx";
 import Analytics from "./Pages/Analytics.jsx";

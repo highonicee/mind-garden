@@ -7,7 +7,8 @@ import { createPageUrl } from "@/utils";
 import { PrimaryButton } from "../components/ui/ActionButton.jsx";
 import GardenScene from "../components/garden/GardenScene.tsx";
 import ThoughtModal from "../components/garden/ThoughtModal.jsx";
-import { someFunction } from "@/lib/thoughtsapi";
+import { thoughtsApi } from '../lib/thoughtsapi'
+
 
 
 export default function Garden() {
